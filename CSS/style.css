@@ -1,0 +1,11 @@
+.container .box{
+    background-color: green;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3px;
+}
